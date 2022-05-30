@@ -572,7 +572,6 @@ footer .social-links {
   }
 
   /* =========== CONTACT ============= */
-
   #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
     grid-template-areas: 'A B';
@@ -580,6 +579,7 @@ footer .social-links {
   #contact h2 {
     width: 40.4rem;
   }
+  
   /* =========== FOOTER ============= */
   footer {
     padding-block: 8rem;
