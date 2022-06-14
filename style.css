@@ -77,6 +77,10 @@ section {
   justify-content: center;
   gap: 3.2rem;
 }
+button:focus, 
+a:focus {
+  box-shadow: none;
+}
 
 /* =========== COLORS ============= */
 #services .card circle {
