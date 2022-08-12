@@ -32,10 +32,11 @@ function activateManuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
+  const nav = document.getElementById('navigation')
   if (scrollY > 0) {
-    navigation.classList.add('scroll')
+    nav.classList.add('scroll')
   } else {
-    navigation.classList.remove('scroll')
+    nav.classList.remove('scroll')
   }
 }
 function showBackToTopButtonOnScroll() {
